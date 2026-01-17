@@ -1,5 +1,4 @@
-// src/exchanges/opiniontrade/utils.ts
-import { UnifiedMarket, MarketOutcome } from '../../types';
+import { UnifiedMarket, MarketOutcome } from '../types';
 import { OpinionMarket } from './types';
 
 export function normalizeMarket(m: OpinionMarket): UnifiedMarket {
