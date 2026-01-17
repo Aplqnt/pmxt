@@ -1,5 +1,3 @@
-// src/exchanges/opiniontrade/types.ts
-
 export interface OpinionMarket {
     id: string;
     title: string;
