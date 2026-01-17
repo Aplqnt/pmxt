@@ -1,6 +1,6 @@
 import axios from 'axios';
-import { MarketFilterParams } from '../../BaseExchange';
-import { UnifiedMarket } from '../../types';
+import { MarketFilterParams } from '../BaseExchange';
+import { UnifiedMarket } from '../types';
 import { OpinionMarket, OpinionResponse } from './types';
 import { normalizeMarket } from './utils';
 
