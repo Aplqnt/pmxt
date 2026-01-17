@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { OrderBook } from '../../types';
+import { OrderBook } from '../types';
 import { OpinionOrderBook, OpinionResponse } from './types';
 
 const BASE_URL = 'https://proxy.opinion.trade:8443';
