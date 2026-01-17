@@ -22,7 +22,8 @@ export class OpinionAuth {
             name: "OpinionTrade",
             version: "1",
             chainId: OPINION_CHAIN_ID,
-            verifyingContract: "0x0000000000000000000000000000000000000000" // Update with real contract
+            // Replace with actual contract address from Opinion docs
+            verifyingContract: "0x25aB3Efd52e6470681CE037cD546Dc60726948D3" 
         };
 
         const types = {
@@ -36,6 +37,7 @@ export class OpinionAuth {
             ]
         };
 
+        // Use _signTypedData for EIP-712 support in Ethers v5
         return this.signer._signTypedData(domain, types, order);
     }
 }
